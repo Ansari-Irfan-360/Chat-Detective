@@ -18,7 +18,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000", // Adjust to your client's origin
+    origin: "https://chat-detective.vercel.app", // Adjust to your client's origin
     methods: ["GET", "POST"],
   },
 });
