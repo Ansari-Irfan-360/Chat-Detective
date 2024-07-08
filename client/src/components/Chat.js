@@ -18,7 +18,7 @@ const Chat = () => {
   const [isEliminated, setIsEliminated] = useState(false);
   const [winnerFound, setWinnerFound] = useState(false);
 
-  const BackendUrl = "http://localhost:8000";
+  const BackendUrl = "https://chat-detective.onrender.com";
 
   useEffect(() => {
     const { username, room } = queryString.parse(location.search);
