@@ -28,7 +28,7 @@ const Lobby = () => {
   const [isReady, setIsReady] = useState(false);
   const [isAdmin, setIsAdmin] = useState(false);
 
-  const BackendUrl = 'http://localhost:8000';
+  const BackendUrl = 'https://chat-detective.onrender.com';
 
   useEffect(() => {
     const { username, room } = queryString.parse(location.search);
