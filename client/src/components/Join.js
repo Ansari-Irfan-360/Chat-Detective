@@ -18,7 +18,7 @@ import "../styles.css";
 import toast from "react-hot-toast";
 import axios from "axios";
 
-const BackendUrl = "http://localhost:8000";
+const BackendUrl = "https://chat-detective.onrender.com";
 
 const Join = () => {
   const [username, setUsername] = useState("");
