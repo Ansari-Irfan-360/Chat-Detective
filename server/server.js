@@ -12,6 +12,7 @@ import {
   allUsersReady,
   AllUsers,
 } from "./utils/users.js";
+import { serverCheck } from 'poll-server-check';
 
 const app = express();
 const server = http.createServer(app);
@@ -27,9 +28,7 @@ const io = new Server(server, {
 app.use(cors());
 
 // BackendUrl to check server status
-app.post("/check", (req, res) => {
-  res.status(200).json({ msg: "Server is running" });
-});
+serverCheck(app);
 
 const botName = "Chat Detective";
 

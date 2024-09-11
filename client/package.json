@@ -2,6 +2,7 @@
   "name": "chat-detective-client",
   "version": "0.1.0",
   "private": true,
+  "author": "Ansari Mohammad Irfan",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
@@ -12,6 +13,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.2",
     "lottie-react": "^2.4.0",
+    "poll-server-check": "^1.1.0",
     "query-string": "^9.0.0",
     "react": "^18.3.1",
     "react-confetti": "^6.1.0",
